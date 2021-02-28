@@ -16,6 +16,8 @@ CRCには2つの種類があります。
 
 ### CRCの入手方法
 RedHat Developerのサイトからダウンロードします。
+https://cloud.redhat.com/openshift/create/local
+
 ダウンロードの際、RedHatアカウントが必要となります。
 ![](https://raw.githubusercontent.com/NakamuraYosuke/Day01-Installation/master/images/download.png)
 
@@ -150,3 +152,24 @@ Homebrewからインストールします。
 ```
 $ brew install docker
 ```
+### 起動確認
+ターミナルから下記コマンドを入力します。
+```
+$ open /Applications/Docker.app
+```
+正常に起動すれば下記の画面が表示されます。
+![](https://raw.githubusercontent.com/NakamuraYosuke/Day01-Installation/master/images/docker.png)
+Dockerの使い方は次回説明します。
+
+## アカウント作成
+### GitHub
+https://github.co.jp/
+こちらより各自GitHubアカウントを作成してください。
+勉強会で利用するサンプルソースコードの格納先として利用します。
+
+くれぐれも、業務に関する管理情報はアップロードしないでください。
+あくまで自己啓発で利用するサンプルのソースコードのみとしてください。
+### Docker Hub
+https://hub.docker.com/
+こちらより各自DockerHubアカウントを作成してください。
+勉強会で利用するサンプルのコンテナイメージの格納先として利用します。
