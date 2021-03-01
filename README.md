@@ -12,6 +12,7 @@ MinikubeのようなことをするOpenShift用ツールは、以前はMinishift
 CRCには2つの種類があります。
     - Red Hat CodeReady Containers（Red Hat CRC）
     - CodeReady Containers for OKD 4（CRC for OKD）
+
 勉強会ではRed Hat CRCを使用します。
 
 ### CRCの入手方法
@@ -123,7 +124,7 @@ HomebrewはMacOS環境におけるいわゆるデファクトスタンダード�
 ターミナルを起動します。
 下記スクリプトを貼り付けてください。
 ```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 続けるにはEnterを押す。パスワードを聞いてくるのでログイン時のパスワードを入力します。
 Xcodeのcommand linet toolが必要になるが、自動インストールされます。
@@ -151,6 +152,7 @@ Gitの使い方は次回説明します。
 Homebrewからインストールします。
 ```
 $ brew install docker
+$ brew install --cask docker
 ```
 ### 起動確認
 ターミナルから下記コマンドを入力します。
